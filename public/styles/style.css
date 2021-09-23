@@ -1,0 +1,107 @@
+* {
+    color: white;
+}
+
+body {
+    margin: 50px;
+    background-color: #222;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-section {
+    text-align: start;
+}
+
+.content-section {
+    text-align: start;
+}
+
+.project {
+    text-align: start;
+}
+
+.icon-main {
+    width: 80px;
+    height: 80px;
+}
+
+.icons-language {
+    margin: 50px;
+}
+
+.perfil-image {
+    width: 260px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 5px;
+    border-color: rgb(2, 91, 173);
+}
+
+.section-image {
+    margin: 50px;
+}
+
+.title-social {
+    font-weight: bold;
+    margin: 20px;
+}
+.title-study {
+    color: rgb(134, 197, 255);
+}
+
+@media (min-width: 992px) {
+    body {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+    .about-section {
+        text-align: center;
+    }
+    
+    .content-section {
+        text-align: center;
+    }
+
+    .project {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+    .about-section {
+        text-align: center;
+    }
+    
+    .content-section {
+        text-align: center;
+    }
+
+    .project {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+    
+    .about-section {
+        text-align: center;
+    }
+    
+    .content-section {
+        text-align: center;
+    }
+
+    .project {
+        text-align: center;
+    }
+}

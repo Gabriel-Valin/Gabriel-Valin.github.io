@@ -1,143 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Gabriel Valin - Dev.</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="sweetalert2.all.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
-    <script src="./assets/js/alerts.js"></script>
-
-    <link rel="stylesheet" href="/assets/css/body.css">
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/styles/style.css">
+    <title>Gabriel Valin - Web Developer</title>
 </head>
-
 <body>
-
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="./assets/images/eu.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title  text-center">Gabriel Valin</h5>
-                        <p class="card-text text-center">A little backend jr dev. 💻</p>
-                        <div class="row justify-content-between text-center">
-                            <div class="col-md-12">
-                                <a href="https://www.linkedin.com/in/gabriel-valin-1759801aa/" class="btn btn-primary">LinkedIn</a>
-                                <a href="https://github.com/Gabriel-Valin" class="btn btn-primary">Github</a>
-                                <a href="https://twitter.com/gvt3ch" class="btn btn-primary">Twitter</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="section-image" style="text-align: center;">
+        <img class="perfil-image" src="./public/images/i.jpg" alt="">
+    </div>
+    <div class="about-me" style="text-align: center">
+        <h1>Gabriel Valin - Web Developer</h1>
+        <div class="about-section">
+            <h3>I'm a backend developer, my focus is NodeJS, Typescript/Javascript and build API's.</h3>
+            <h3>In near future i wanna be a fullstack developer, i like so much React structure but still i not had a opportunity for study.</h3>
         </div>
     </div>
-    <br>
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-3">Eai, como "cê" ta?</h1>
-            <p class="lead">Resido no interior de SP e sou um aspirante à desenvolvedor backend júnior 😎</p><br />
-            <p class="lead text-center">Estudante Análise e Desenvolvimento de Sistemas</p>
-            <div class="row justify-content-center">
-                <img class="img-fluid" src="/assets/images/Fatec-logo-9710C99301-seeklogo.com.png" alt="">
-            </div>
-            <hr class="my-4">
-            <p>Logo abaixo vou falar um pouco da minha atual "stack" e o que eu quero para o meu futuro como
-                desenvolvedor. ✔</p>
-            <hr class="my-4">
-            <div class="jumbotron">
-                <h3 class="lead text-center">TECNOLOGIAS</h3>
-                <h3 class="lead text-center">As que mais utilizo hoje em dia.</h3>
-                <br />
-                <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">Ruby</h3>
-                        <span><img src="/assets/images/ruby-logo.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">Ruby On Rails</h3>
-                        <span><img src="/assets/images/ror.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">PHP</h3>
-                        <span><img src="/assets/images/php.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">CODE IGNITER</h3>
-                        <span><img src="/assets/images/logo_codeigniter.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">LARAVEL 8x</h3>
-                        <span><img src="/assets/images/laravel-6-logo.png" width="128px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">HTML</h3>
-                        <span><img src="/assets/images/html.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">CSS</h3>
-                        <span><img src="/assets/images/css-icon-12.jpg" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">JAVASCRIPT</h3>
-                        <span><img src="/assets/images/js.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">BOOTSTRAP</h3>
-                        <span><img src="/assets/images/bootstrap-stack-e1530246058846.png" width="64px" alt=""></span>
-                    </li>
-                </ul>
-
-                <hr />
-
-                <p class="lead text-center">Tecnologias que estão em estudo</p>
-
-                <br />
-
-                <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">NODE.JS</h3>
-                        <span><img src="/assets/images/node.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">TYPESCRIPT</h3>
-                        <span><img src="/assets/images/ts.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">REACT.JS</h3>
-                        <span><img src="/assets/images/react.png" width="64px" alt=""></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <h3 style="font-weight: bold;">DOCKER</h3>
-                        <span><img src="/assets/images/homepage-docker-logo.png" width="64px" alt=""></span>
-                    </li>
-                </ul>
-            </div>
+    <div class="icons-language" style="text-align: center;">
+        <div class="title-social">
+            My social network's and blog: 
+        </div>
+        <a href="https://www.linkedin.com/in/gabriel-valin-1759801aa/" target="_blank"><img class="icon-main" src="./public/images/roundlkn.ico" alt=""></a> 
+        <a href="https://github.com/Gabriel-Valin" target="_blank"><img class="icon-main" src="./public/images/github-rounded.jpg" alt=""></a>
+        <a href="https://devolopingtheworld.hashnode.dev/" target="_blank"><img class="icon-main" src="./public/images/hashnode.png" alt=""></a> 
+    </div>
+    <div class="university" style="text-align: center;">
+        <p>Currently, i'm student at Faculdade de Tecnologia (FATEC) at Botucatu, São Paulo.</p>
+        <p> <strong>Course:</strong> System Analisys and Development</p>
+    </div>
+    <div class="future-study" style="text-align: center;">
+        <p>I'm studying somethings to become a better developer, like:</p>
+        <div class="content-section">
+            <p><strong class="title-study">Design Patterns: </strong>Factories, Adapters, Abstract Server, Composite, Decorators, Dependency Injection, Singleton.</p>
+            <p><strong class="title-study">Principles: </strong>SOLID, DRY, Composition Over Inheritance, Small commits.</p>
+            <p><strong class="title-study">Metodologies: </strong>BDD, TDD, Use Cases, Clean Architecture, CI/CD.</p>
+            <p><strong class="title-study">Tools: </strong>Git, Swagger, Docker, Jest, Supertest, Github Actions, Husky, Lint Staged, In-Memory (Fakes).</p>
         </div>
     </div>
-    <div class="row justify-content-center">
-        <a href="#" onclick="input()" class="btn btn-primary">Fala Comigo!</a>
+    <div class="project" style="margin-top: 50px;">
+        <div style="text-align: center;"><h3>My last project: </h3></div>
+        <p>I working in a project that i implementing many of above contents, currently i have much pride of this project because his a Social Project that have a purpose of help woman to create a complaints about violence against woman. 🙅‍♀️ </p> 
+        <a href="https://github.com/Gabriel-Valin/complaints-woman">
+            <img width="350" src="./public/images/logo-complaint-transparent.png" alt="">
+        </a>
     </div>
-    
 </body>
-
 </html>
